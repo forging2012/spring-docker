@@ -1,0 +1,13 @@
+logging:
+  level:
+    tk.mybatis: debug
+server:
+  port: 9999
+  session:
+    timeout: 120
+spring:
+  freemarker:
+    suffix: .ftlh
+    settings:
+      recognize_standard_file_extensions:
+        true
